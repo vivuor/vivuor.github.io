@@ -126,14 +126,7 @@ nav {
     margin: auto;
 }
 
-.fastLearner {
-    width: 200px;
-    height: 150px;
-    display: flex;
-    align-items: center;
-}
-
-.diy {
+.square-txt {
     width: 200px;
     height: 150px;
     display: flex;
@@ -147,15 +140,7 @@ nav {
     align-items: center;
 }
 
-.codeWriter {
-    width: 200px;
-    height: 150px;
-    display: flex;
-    align-items: center;
-}
-
 .square {
-    width: 150px;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -232,12 +217,15 @@ nav {
     .grid-container {
         padding: 0rem 1rem 2rem 1rem;
         width: 100%;
-        
-
     }
 
     .greetings-desc {
         margin: auto;
+    }
+
+    .square {
+        width: 100px;
+        height: 100px;
     }
 
     .animation-pic {
@@ -246,21 +234,6 @@ nav {
     }
 
     .animation-pic img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .animation-brains {
-        width: 100px;
-        height: 100px;
-    }
-
-    .animation-coder {
-        width: 100px;
-        height: 100px;
-    }
-
-    .animation-tinker {
         width: 100px;
         height: 100px;
     }
