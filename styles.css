@@ -116,7 +116,7 @@ nav {
 
 .grid-container {
     width: 30%;
-    padding: 0rem 10rem 0rem 5rem;
+    padding: 0rem 10rem 0rem 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
@@ -154,43 +154,24 @@ nav {
     align-items: center;
 }
 
-.animation-brains {
+.square {
     width: 150px;
     height: 150px;
-    background: #F5A65B;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.animation-brains {
+    background: #F5A65B;
 }
 
 .animation-tinker {
-    width: 150px;
-    height: 150px;
     background: #BBD1EA;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .animation-coder {
-    width: 150px;
-    height: 150px;
     background: #7BD389;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.projects {
-    height: 1024px;
-    padding: 0rem 0rem 0rem 10rem;
-    text-align: left;
-}
-
-.contact {
-    height: 1024px;
-    padding: 0rem 0rem 0rem 10rem;
-    text-align: left;
 }
 
 @media screen and (max-width:768px) {
@@ -251,8 +232,7 @@ nav {
     .grid-container {
         padding: 0rem 1rem 2rem 1rem;
         width: 100%;
-        grid-template-columns: 0fr 0fr;
-        justify-content: center;
+        
 
     }
 
