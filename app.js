@@ -33,10 +33,10 @@ navSlide();
 
 const timeline = gsap.timeline({defaults: {duration: 0.5}})
 
-timeline.fromTo('.animation-pic', {opacity: 0, x: 100}, {opacity: 1, x: 0, duration: 0.5})
 timeline.fromTo('.animation-brains', {opacity: 0, x: 100}, {opacity: 1, x: 0, duration: 0.5})
 timeline.fromTo('.fastLearner', {opacity: 0, x: 100}, {opacity: 1, x: 0, duration: 0.5})
 timeline.fromTo('.animation-tinker', {opacity: 0, x: 100}, {opacity: 1, x: 0, duration: 0.5})
 timeline.fromTo('.diy', {opacity: 0, x: 100}, {opacity: 1, x: 0, duration: 0.5})
 timeline.fromTo('.animation-coder', {opacity: 0, x: 100}, {opacity: 1, x: 0, duration: 0.5})
 timeline.fromTo('.codeWriter', {opacity: 0, x: 100}, {opacity: 1, x: 0, duration: 0.5})
+
